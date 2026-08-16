@@ -1,6 +1,14 @@
 import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
+   {
+    title: "Stakeflow",
+    description:"A full-stack investment and referral platform built end-to-end — database design, backend business logic, and a live React dashboard.",
+    image: "/projects/project4.png",
+    tags: ["React", "NodeJS","Node-Cron","Tailwind CSS","JWT"],
+    link: "https://stakeflow-app-five.vercel.app",
+    github: "https://github.com/danish-ali1/stakeflow-app",
+  },
   {
     title: "Streamify",
     description:
